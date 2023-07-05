@@ -37,3 +37,9 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 
 출처 : https://wikidocs.net/22660
 
+## 📌 TextCNN 모델 설계
+
+1) CNN이란?
+   * Convolution Neural Network(CNN)은 Filter가 이미지를 스캔하며 feature를 추출. 
+3) 
+4) 
