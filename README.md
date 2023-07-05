@@ -25,6 +25,10 @@ TextCNN을 채택하게 된 이유로는 웹툰 댓글은 길이가 짧고, 그 
 문자를 숫자로 변환하여 컴퓨터가 인식하도록 해야 하는데, 단어나 문장을 벡터로 변환하여 벡터로 끼워넣는 과정을 word embedding(단어 임베딩)이라고 함. 분산 표현을 통해 여러 차원이 조합되어 의미적 유사도를 구할 수 있음.
 이 프로젝트에서는 Word2Vec 임베딩을 사용
 
+처음의 '차원'의 개념을 이해하는 것이 어려웠는데, 쉽게 생각하면 'I love you'는 3차원으로 구성되어 있다고 할 수 있음. I=[1, 0, 0], love=[0, 1, 0], you=[0, 0, 1] 이런 벡터로 나타낼 수 있는 것!
+
+(https://github.com/SemiKwon/TextCNN/assets/76101347/00ba00db-ad49-47a5-83a3-22cb80c315ef)
+
 Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방식. Word2Vec에는 두 가지 방법이 있는데 그중 Skip-gram을 선택했음. Skip-gram은 중심 단어에서 주변 단어를 예측하는 방식
 
 ![skipgram_dataset](https://github.com/SemiKwon/TextCNN/assets/76101347/4b5fc202-11cc-46f6-867f-9f3ecb5060a0)
