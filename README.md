@@ -37,7 +37,7 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 
 출처 : https://wikidocs.net/22660
 
-## 📌 TextCNN 모델 설계
+## 📌 TextCNN 모델
 
 **1) TextCNN이란?**
 * CNN → 이미지 처리 시 스캔하면서 특징을 추출 / TextCNN은 filter가 문장 스캔 → 문맥적 의미 파악 (정보 집약-연산속도 향상-분류 문제에서 좋은 결과) 
@@ -46,4 +46,8 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 ![다운로드](https://github.com/SemiKwon/TextCNN/assets/76101347/8af3323a-5f1f-4c8f-aaf5-2c5d088a5a8d)
 )
 
-출처 :  김 윤 박사님의 논문「Convolutional Neural Networks for Sentence Classification」
+출처 : IMPLEMENTING A CNN FOR TEXT CLASSIFICATION IN TENSORFLOW
+
+![화면 캡처 2023-07-05 223117](https://github.com/SemiKwon/TextCNN/assets/76101347/68727ecb-61a9-4ebe-91b3-b56a66ea19f2)
+
+출처 :  A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification 
