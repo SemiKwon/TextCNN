@@ -10,7 +10,7 @@
 
 TextCNN을 채택하게 된 이유로는 웹툰 댓글은 길이가 짧고, 그 특징을 추출하는 것이 중요하다고 생각했기 때문입니다.
 
-"**인물 사이의 자극적인 장면이 많은 작품을 선호하시나요?**"
+"**인물 사이에 자극적인 장면이 많은 작품을 선호하시나요?**"
 로 질문을 바꾸고, TextCNN 모델의 결과를 기준으로 **DB에 담겨 있는 웹툰 작품들을 재배열**하였습니다. **10명을 대상으로 파일럿 스터디**하여 다시 한번 테스트해본 결과 **초기 애플리케이션에서는 정확도가 60%였던 것이, 80%까지 상승**하는 결과를 얻을 수 있었습니다.
 
 ## 📌 데이터셋 구성
@@ -50,6 +50,8 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 
 ![화면 캡처 2023-07-05 223117](https://github.com/SemiKwon/TextCNN/assets/76101347/68727ecb-61a9-4ebe-91b3-b56a66ea19f2)
 
-위 사진의 구조로 의도한 모델을 설명하자면, 입력값(input)의
+위 사진의 구조로 의도한 모델을 설명하자면 다음과 같습니다. 
+* Input : row = 단어의 개수, column = 임베딩 차원
+* 
 
 출처 :  A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification 
