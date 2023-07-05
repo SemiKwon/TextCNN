@@ -39,9 +39,11 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 
 ## 📌 TextCNN 모델 설계
 
-1) TextCNN이란? (출처 :  김 윤 박사님의 논문「Convolutional Neural Networks for Sentence Classification」)
+**1) TextCNN이란?**
 * CNN → 이미지 처리 시 스캔하면서 특징을 추출 / TextCNN은 filter가 문장 스캔 → 문맥적 의미 파악 (정보 집약-연산속도 향상-분류 문제에서 좋은 결과) 
 * 워드 임베딩 벡터를 입력값으로 투입 → Convolution 연산을 통해 feature map 생성 → 활성화 함수를 통해 feature map을 activation map으로 대응 → max-pooling → 결과를 fully-connected layer의 입력값으로 넣은 뒤 최종 분류
 
 ![다운로드](https://github.com/SemiKwon/TextCNN/assets/76101347/8af3323a-5f1f-4c8f-aaf5-2c5d088a5a8d)
 )
+
+출처 :  김 윤 박사님의 논문「Convolutional Neural Networks for Sentence Classification」
