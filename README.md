@@ -50,4 +50,6 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 
 ![화면 캡처 2023-07-05 223117](https://github.com/SemiKwon/TextCNN/assets/76101347/68727ecb-61a9-4ebe-91b3-b56a66ea19f2)
 
+위 사진의 구조로 의도한 모델을 설명하자면, 입력값(input)의
+
 출처 :  A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification 
