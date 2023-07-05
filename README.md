@@ -50,8 +50,13 @@ Word2Vec은 중심 단어와 주변 단어를 통해 단어를 예측하는 방�
 
 ![화면 캡처 2023-07-05 223117](https://github.com/SemiKwon/TextCNN/assets/76101347/68727ecb-61a9-4ebe-91b3-b56a66ea19f2)
 
-위 사진의 구조로 의도한 모델을 설명하자면 다음과 같습니다. 
+위 사진의 구조로 의도한 모델을 설명하자면 다음과 같습니다.
+
 * Input : row = 단어의 개수, column = 임베딩 차원
-* 
+* 영역의 크기가 각각 2, 3, 4인 2개의 필터, 즉 6개의 필터를 통과
+* 6X2, 5X2, 4X2 크기의 feature map이 생성 → 사전에 정의한 채널 수 만큼 생성(2)
+* feature map이 activation map으로 변환, 가장 큰 값을 추출하는 max pooling을 통과
+* 선택된 부분들이 concat되어 하나의 fully connected layer(single feature vector)를 형성
+* softmax를 거쳐 최종적으로 두 클래스로 분류
 
 출처 :  A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification 
